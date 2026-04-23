@@ -39,21 +39,21 @@ body {
 }
 
 .hero-section {
-  background-image: url('/assets/images/hero-bg.jpg');
+  background-image: url('./assets/images/hero-bg.jpg');
 }
 
 .forest-section {
-  background-image: url('/assets/images/forest-bg.jpg');
+  background-image: url('./assets/images/forest-bg.jpg');
   min-height: 70vh;
 }
 
 .ocean-section {
-  background-image: url('/assets/images/ocean-bg.jpg');
+  background-image: url('./assets/images/ocean-bg.jpg');
   min-height: 70vh;
 }
 
 .desert-section {
-  background-image: url('/assets/images/desert-bg.jpg');
+  background-image: url('./assets/images/desert-bg.jpg');
   min-height: 70vh;
 }
 
@@ -240,19 +240,19 @@ body {
 }
 
 .gallery-item-1 {
-  background-image: url('/assets/images/hero-bg.jpg');
+  background-image: url('./assets/images/hero-bg.jpg');
 }
 
 .gallery-item-2 {
-  background-image: url('/assets/images/forest-bg.jpg');
+  background-image: url('./assets/images/forest-bg.jpg');
 }
 
 .gallery-item-3 {
-  background-image: url('/assets/images/ocean-bg.jpg');
+  background-image: url('./assets/images/ocean-bg.jpg');
 }
 
 .gallery-item-4 {
-  background-image: url('/assets/images/desert-bg.jpg');
+  background-image: url('./assets/images/desert-bg.jpg');
 }
 
 .contact-section {
