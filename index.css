@@ -72,7 +72,7 @@ body {
   z-index: 10;
   text-align: center;
   padding: 2rem;
-  max-width: 800px;
+  max-width: 50rem;
 }
 
 .hero-title {
@@ -109,8 +109,8 @@ body {
 }
 
 .scroll-arrow {
-  width: 1px;
-  height: 60px;
+  width: 0.0625rem;
+  height: 3.75rem;
   background: linear-gradient(
     to bottom,
     var(--parallax-text) 0%,
@@ -154,7 +154,7 @@ body {
 }
 
 .content-wrapper {
-  max-width: 900px;
+  max-width: 56.25rem;
   margin: 0 auto;
 }
 
@@ -188,14 +188,14 @@ body {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
   gap: 3rem;
   margin-top: 4rem;
 }
 
 .feature-card {
   padding: 2rem 0;
-  border-top: 1px solid rgba(139, 139, 122, 0.2);
+  border-top: 0.0625rem solid rgba(139, 139, 122, 0.2);
 }
 
 .feature-icon {
@@ -272,7 +272,7 @@ body {
 }
 
 .contact-form {
-  max-width: 500px;
+  max-width: 31.25rem;
   margin: 3rem auto 0;
 }
 
@@ -294,7 +294,7 @@ body {
   width: 100%;
   padding: 1rem;
   background: transparent;
-  border: 1px solid rgba(139, 139, 122, 0.3);
+  border: 0.0625rem solid rgba(139, 139, 122, 0.3);
   color: var(--parallax-text);
   font-size: 1rem;
   font-family: inherit;
@@ -314,7 +314,7 @@ body {
 
 .form-textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 7.5rem;
 }
 
 .form-button {
@@ -335,17 +335,17 @@ body {
 
 .form-button:hover {
   background: #b3c4a5;
-  transform: translateY(-2px);
+  transform: translateY(-0.125rem);
 }
 
 .footer {
   background-color: var(--parallax-dark);
   padding: 3rem 2rem;
-  border-top: 1px solid rgba(139, 139, 122, 0.2);
+  border-top: 0.0625rem solid rgba(139, 139, 122, 0.2);
 }
 
 .footer-content {
-  max-width: 900px;
+  max-width: 56.25rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -363,7 +363,7 @@ body {
   letter-spacing: 0.05em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .parallax-section {
     background-attachment: scroll;
   }
